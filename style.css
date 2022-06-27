@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,20 +11,21 @@ body{
     background-repeat: no-repeat; */
     overflow: hidden;
     height: 100vh;
-    color: black;
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 12px;
-    background-color: #cce6ff;
+    background: radial-gradient(#1d1f57,#020926);
 }
 
 .taskbar{
-    background-color: #f3f3f3;
+    background-color: #191d55;
     width: 100%;
     position: absolute;
     bottom: 0;
     display: flex;
     z-index: 110;
     justify-content: center;
+    height: 45px;
 }
 
 .startmenu{
@@ -32,7 +34,7 @@ body{
     bottom: -655px;
     width: 100%;
     text-align: center;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 
@@ -42,11 +44,11 @@ body{
 }
 
 .right{
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
     position: absolute;
     right: 0;
-    margin: 6px 0;
-    height: 85%;
+    margin: 0;
+    height: 100%;
 }
 .icons{
     color: white;
@@ -54,12 +56,11 @@ body{
 
 .date{
   position: absolute;
-  /* bottom: 50px; */
-  bottom: -655px;
+  bottom: 50px;
+  right: -350px;
   width: 100%;
   text-align: right;
-  transition: all 0.3s ease-in;
-  margin-left: -10px;
+  transition: all 0.2s ease-in;
 }
 .date img{
     border-radius: 8px;
@@ -69,7 +70,7 @@ body{
 .chrome{
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 29px;
   }
   .edgeicon{
     position: absolute;
@@ -83,17 +84,17 @@ body{
   }
   .ekor{
     position: absolute;
-    top: 250px;
-    left: 42px;
+    top: 241px;
+    left: 39px;
   }
   .chrome img{
-    width: 50px;
+    width: 55px;
   }
   .edgeicon img{
     width: 30px;
   }
   .bin img{
-  width: 40px;
+  width: 33px;
   }
   .ekor img{
     width: 25px;
