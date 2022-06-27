@@ -17,10 +17,10 @@ let datemenu = document.getElementsByClassName("date")[0]
 
 rightpic.addEventListener("click", ()=>{
     console.log("clicked");
-    if(datemenu.style.bottom == "50px"){
-        datemenu.style.bottom = "-655px"
+    if(datemenu.style.right == "10px"){
+        datemenu.style.right = "-350px"
     }
     else{
-        datemenu.style.bottom = "50px"
+        datemenu.style.right = "10px"
     }
 })
